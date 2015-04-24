@@ -1,0 +1,28 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+
+\input{packages.tex}
+
+\input{macros/pl-theory.tex}
+
+%% Those conflicting with the beamer class:
+
+% Already imported in beamer class
+\usepackage[usenames,dvipsnames]{xcolor}
+
+% Already defined in beamer class
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+\newcommand{\authorNote}[3]{{\color{#2} {\textsc{#1}}: #3}}
+
+\title{Title}
+\author{Author}
+\date{Date}
+
+\begin{document}
+
+\maketitle
+
+\end{document}

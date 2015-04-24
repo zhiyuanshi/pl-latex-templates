@@ -1,0 +1,56 @@
+\documentclass[xcolor={usenames,dvipsnames}]{beamer}
+\mode<presentation>{}
+\beamertemplatenavigationsymbolsempty
+
+% Show frame number, but without total number
+% http://www.latex-community.org/forum/viewtopic.php?f=4&t=6694
+\setbeamertemplate{footline}{%
+  \raisebox{5pt}{\makebox[\paperwidth]{\hfill\makebox[10pt]{\scriptsize\insertframenumber}}}}
+
+\usepackage[utf8]{inputenc}
+
+\input{packages.tex}
+
+\input{macros/pl-theory.tex}
+
+\newcommand{\authorNote}[3]{{\color{#2} {\textsc{#1}}: #3}}
+
+\title{Title}
+\author{Author}
+\date{Date}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}[fragile]
+  \frametitle{Outline}
+  \begin{itemize}
+  \item Item 1
+  \item Item 2
+  \item Item 3
+  \item \ldots
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Another slide}
+  \begin{itemize}
+  \item Item 1
+  \item Item 2
+  \item Item 3
+  \item \ldots
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Further readings}
+  \begin{itemize}
+  \item Item 1
+  \item Item 2
+  \item Item 3
+  \item \ldots
+  \end{itemize}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,27 @@
+% General
+\newcommand{\code}[1]{\texttt {#1}}
+\newcommand{\highlight}[1]{\colorbox{GreenYellow}{#1}}
+
+% Logic
+\newcommand{\turns}{\vdash}
+
+% Math
+\newcommand{\im}[1]{\lvert #1 \rvert}
+
+% PL
+\newcommand{\subst}[2]{\lbrack #1 / #2 \rbrack}
+
+% Constructors
+\newcommand{\for}[2]{\forall #1. \, #2}
+\newcommand{\lam}[3]{\lambda (#1 : #2). \, #3}
+\newcommand{\app}[2]{#1 \; #2}
+\newcommand{\blam}[2]{\Lambda #1. #2}
+\newcommand{\tapp}[2]{#1 \; #2}
+
+\newcommand{\pair}[2]{(#1, #2)}
+\newcommand{\proj}[2]{{\code{proj}}_{#1} #2}
+
+\newcommand{\recType}[2]{\{ #1 : #2 \}}
+\newcommand{\recCon}[2]{\{ #1 = #2 \}}
+
+\newcommand{\ifThenElse}[3]{\code{if} \; #1 \; \code{then} \; #2 \; \code{else} \; #3}
