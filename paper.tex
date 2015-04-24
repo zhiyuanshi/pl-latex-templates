@@ -25,4 +25,14 @@
 
 \maketitle
 
+% Example of using \inferrule provided by the mathpartir package
+% Feel free to remove this.
+\begin{mathpar}
+  \inferrule
+  {e_1 \hookrightarrow {\lam x {e_1'}} \\
+    e_2 \hookrightarrow v_2 \\
+    \subst {v_2} x {e_1'} \hookrightarrow v}
+  {\app {e_1} {e_2} \hookrightarrow v}
+\end{mathpar}
+
 \end{document}
