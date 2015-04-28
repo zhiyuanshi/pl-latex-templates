@@ -9,16 +9,16 @@ I provide two types of templates:
 * **paper:** see [paper.pdf](https://github.com/zhiyuanshi/pl-latex-templates/blob/master/paper.pdf)
 
 ## Notable packages
-* Code listing: the Listings package
-* Typesetting inference rules - the [mathpartir](http://gallium.inria.fr/~remy/latex/mathpartir.html) package by Didier Rémy
+* **Code listing:** the Listings package
+* **Typesetting inference rules**: the [mathpartir](http://gallium.inria.fr/~remy/latex/mathpartir.html) package by Didier Rémy
 
 ## Macros
 
 I have also pre-defined macros for very common PL constructs such as lambda and substitution. See [macros/pl-theory.tex](https://github.com/zhiyuanshi/pl-latex-templates/blob/master/macros/pl-theory.tex).
 
 ## Typography
-* Text: LaTeX default
-* Math: I use the beautiful [AMS Euler](http://en.wikipedia.org/wiki/AMS_Euler)
+* **Text:** LaTeX default
+* **Math:** I use the beautiful [AMS Euler](http://en.wikipedia.org/wiki/AMS_Euler)
   designed by Hermann Zapf and Donald Knuth.
 
 ## Usage
